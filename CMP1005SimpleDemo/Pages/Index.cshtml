@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    <h1>Hello There!!</h1>
+    <p>
+        @Model.data
+    </p>
+</div>
+
+<form method="post">
+    <label>Enter your name: <input type="text" name="name" autocomplete="name" /></label>
+    <input type="submit" value="Submit" />
+</form>
+
+<div>
+    @if (Model.GetName() != string.Empty)
+    {
+    <p>Hello @Model.GetName()</p>
+    }
+    
+    <p>@Model.GetPath()</p>
+
+</div>

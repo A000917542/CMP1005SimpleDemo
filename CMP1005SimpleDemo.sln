@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMP1005SimpleDemo", "CMP1005SimpleDemo\CMP1005SimpleDemo.csproj", "{0BD90702-8D52-4E62-A4E8-1F70C48E15D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMP1005SimpleTests", "CMP1005SimpleTests\CMP1005SimpleTests.csproj", "{EE0319DE-A63B-411E-B1A7-A209347FA67B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD90702-8D52-4E62-A4E8-1F70C48E15D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD90702-8D52-4E62-A4E8-1F70C48E15D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD90702-8D52-4E62-A4E8-1F70C48E15D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD90702-8D52-4E62-A4E8-1F70C48E15D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0319DE-A63B-411E-B1A7-A209347FA67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0319DE-A63B-411E-B1A7-A209347FA67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0319DE-A63B-411E-B1A7-A209347FA67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0319DE-A63B-411E-B1A7-A209347FA67B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5465F7D-C773-48A5-BB7C-B0741F17987E}
+	EndGlobalSection
+EndGlobal
